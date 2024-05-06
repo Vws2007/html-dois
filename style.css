@@ -241,7 +241,6 @@ nav ul {
     }
     .wrapper {
         width: auto;
-        height: 300px;
         margin-right: 150px;
         margin-top: 70px;
         background-color: transparent;
@@ -314,7 +313,7 @@ nav ul {
     }
 
 }
-@media (max-width: 380px) {
+@media (max-width: 420px) {
     body {
         overflow: hidden;
         width: auto;

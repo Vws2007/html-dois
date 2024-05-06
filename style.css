@@ -314,6 +314,18 @@ nav ul {
     }
 
 }
+@media (max-width: 380px) {
+    body {
+        overflow: hidden;
+        width: auto;
+        height: 740px;
+    }
+    .mobile-menu {
+        margin-right: 90px;
+        overflow: hidden;
+    }
+
+}
 img {
     float: left;
     width: auto;

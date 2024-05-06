@@ -208,15 +208,24 @@ nav ul {
     }
     .wrapper {
         width: 340px;
-        margin-left: 150px;
-        margin-right: 60px;
+        margin-left: 180px;
+        margin-right: 10px;
         margin-top: 70px;
         background-color: transparent;
+        backdrop-filter: blur(20px);
+    }
+    .register-link{
+        color: #070926;
+    }
+    .register-link p a {
+        color: #070926;
     }
     .foto {
         display: none;
     }
     .logo {
+        margin-right: ;
+        text-align: center;
         margin: auto;
     }
     header {

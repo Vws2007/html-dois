@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VWS COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+            <div class="linha">
+                <header>
+                    <nav>
+                        <a class="logo">VWS COMPANY</a>
+                        <div class="mobile-menu">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <ul class="nav-list">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="contatos.html">contatos</a></li>
+                            <li><a href="sobre.html">sobre nós</a></li>
+                            <li><a href="clientes.html">clientes</a></li>
+                            <li><a href="servicos.html">trabalhos</a></li>
+                        </ul>
+                    </nav>  
+                </header>
+            </div>
+        </div>
+        <main>
+            <div class="foto">
+                <img src="./img/vws.png" alt="">
+            </div>
+            <div class="wrapper">
+                <h1> Login </h1>
+                <div class="input-box">
+                    <input type="email" name="Username" id="Username" placeholder="Usuario" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="Username" id="Username" placeholder="Senha" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" name="" id="">Lembrar senha</label>
+                </div>
+
+                <button type="submit" class="btn" id="logar" onclick="logiin()" >Login</button>
+
+                <div class="register-link">
+                    <p>Não tem registro ? <a href="#">Registre-se</a></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+              <p>&copy; Desenvolvido por &raquo; VWS COMPANY</p>
+        </footer>
+        <script src="mobile-navbar.js"></script>
+    </div>
+</body>
+</html>

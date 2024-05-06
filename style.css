@@ -241,6 +241,7 @@ nav ul {
     }
     .wrapper {
         width: auto;
+        height: 400px;
         margin-right: 150px;
         margin-top: 70px;
         background-color: transparent;
@@ -308,19 +309,19 @@ nav ul {
         height: 740px;
     }
     .mobile-menu {
-        margin-right: 90px;
+        margin-right: 50px;
         overflow: hidden;
     }
 
 }
-@media (max-width: 420px) {
+@media (max-width: 413px) {
     body {
         overflow: hidden;
         width: auto;
         height: 740px;
     }
     .mobile-menu {
-        margin-right: 90px;
+        margin: auto;
         overflow: hidden;
     }
 

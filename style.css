@@ -177,7 +177,7 @@ body {
 }
 
 /*colocar itens da lista um ao lado do outro seu burro */
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -224,7 +224,6 @@ nav ul {
         display: none;
     }
     .logo {
-        margin-right: ;
         text-align: center;
         margin: auto;
     }

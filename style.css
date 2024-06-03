@@ -177,7 +177,12 @@ body {
 }
 
 /*colocar itens da lista um ao lado do outro seu burro */
+.header {
+    background-color: #070926;
+    color: gray;
+}
 nav {
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -201,6 +206,16 @@ nav ul {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
 @media (max-width: 1038px) {
     body {
         overflow-x: hidden;
@@ -244,4 +259,12 @@ footer {
     width: 1500px;
     overflow: auto;
     text-align: center;
+}
+.wrapper a:hover {
+    opacity: 0.7;
+    color: #d900ff86;
+}
+footer a:hover {
+    opacity: 0.7;
+    color: #cc02ff8d;
 }

@@ -31,16 +31,26 @@
         </div>
         <div class="Your password">
             <h6>Crie uma senha:</h6>
-            <input type="password" name="" id="pass" placeholder="Crie sua senha" required>
+            <input type="password" name="" id="passtwo" placeholder="Crie sua senha" required>
         </div>
         <div class="Confirm your password">
             <h6>Confirme sua senha:</h6>
             <input type="password" name="" id="passconfirm" placeholder="Confirme sua senha">
         </div>
-        <button class="btn">
+        <button class="btn" id="register" onclick="register()">
             <p>Registrar-se</p>
         </button>
             <p><strong>Você ja tem conta ? <a href="./index.html">Faça login.</a></strong></p>
     </main>
+    <script>
+        function register() {
+            var name = window.document.querySelector('input#Username')
+            var email = window.document.querySelector('input#email')
+            var passtwo = window.document.querySelector('input#name')
+            var nome = String(name.value)
+            var mail = String(email.value)
+            var senhadois =  Number(passtwo.value)
+        }
+    </script>
 </body>
 </html>

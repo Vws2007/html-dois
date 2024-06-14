@@ -225,7 +225,7 @@ a:hover {
     .wrapper {
         width: 340px;
         margin-left: 180px;
-        margin-right: 10px;
+        margin-right: 70px;
         margin-top: 70px;
         background-color: transparent;
         backdrop-filter: blur(20px);
@@ -282,6 +282,7 @@ footer a:hover {
 }
 #welcome p {
     text-align: center;
+    width: 240px;
 }
 #Username:hover {
     border: solid rgb(187, 0, 255);

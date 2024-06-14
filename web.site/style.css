@@ -11,15 +11,16 @@
   float: left;
 }
 a:link, a:active, a:visited{
-  color: #127223;
+  color: #6400c1c0;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 body {
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
-  color: #333;
+  color: #fffafa;
 }   
 
 .col1 {
@@ -84,7 +85,7 @@ ul.sem-marcador, ol.sem-marcador{
   list-style: none !important;
 }
 a.botao, input.botao {
-  background: #025010;
+  background: #8000ff;
   padding: 5px 10px;
   border-radius: 3px;
   color: #ebebeb;
@@ -94,7 +95,7 @@ a.botao, input.botao {
   border: none;
 }
 a.botao:hover, input.botao:hover{
-  background: #2ae149;
+  background: #b62ae1a4;
 }
 img{
   max-width: 100%;
@@ -102,19 +103,20 @@ img{
 }
 /* layout do site */
 .header {
-  background: #dee3e6;
+  background: #161617;
 }
 h1.logo{
   font-weight: 300;
-  color: #2ae149;
+  color: #5d00ffd1;
   letter-spacing: -2px;
   font-family:initial;
 }
 .conteudo-extra {
-  background: #f1f2ea;
+  color: #ebebeb;
+  background: #000000;
 }
 .footer{
-  background: #1f3c19;
+  background: #7300ff;
   color: #ebebeb;
   padding: 20px 0px;
   text-align: center;
@@ -130,9 +132,13 @@ h1.logo{
   padding: 5px 5px;
   border-radius: 3px;
 }
+.logo:hover {
+  color: #5e0089;
+  cursor: help;
+}
 .menu li a:hover {
   text-decoration: none;
-  background: #1f3c19;
+  background: #5e0089;
   color: #ebebeb;
 }
 ul.noticias li{
@@ -178,4 +184,56 @@ ul.noticias li p a{
 p {
   width: auto;
   height: auto;
+}
+@media (max-width: 1000px) {
+body {
+  overflow-x: hidden;
+}
+.sidebar {
+    display: none;
+}
+.header {
+  overflow-x: hidden;
+  width: 620px;
+  float: left;
+}
+.header .linha {
+  width: 720px;
+}
+.menu {
+  width: 540px;
+}
+.menu li {
+  margin: 5px;
+  float: left;
+}
+.menu li a {
+  margin-left: -13px;
+  padding: 2px 2px;
+}
+.header .col8 .menu {
+  margin: 0px -5px;
+}
+.logo {
+  width: 240px;
+  margin-left: 120px;
+  text-align: center;
+}
+.conteudo-extra .col5  {
+  width: 440px;
+}
+.conteudo-extra .col7 p {
+  width: 440px;
+}
+.footer .linha .col12 span {
+  margin-left: 10%;
+  float: left;
+}
+.linha .col9 p {
+  width: 440px;
+}
+.linha .col9 img {
+  width: auto;
+  height: 200px;
+}
 }

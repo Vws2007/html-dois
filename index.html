@@ -25,6 +25,8 @@
                 </header>
             </div>
         </div>
+        <div id="welcome">
+        </div>
         <main>
             <div id="welcome">
             </div>
@@ -58,45 +60,17 @@
               <p>&copy; Desenvolvido por &raquo; <a href="">VWS COMPANY</a></p>
         </footer>
         <script>
-            var welcome = window.document.querySelector('div#welcome')
-            var agora = new Date()
-            var diaSem = agora.getDay()
-            var horas = agora.getHours()
-            var minutis = agora.getMinutes()
-            switch(diaSem) {
-            case 0:
-                welcome.innerHTML = `<p>Domingo ${horas} horas e ${minutis} minutos</p>`
-                break
-            case 1:
-                welcome.innerHTML = `<p>Segunda-Feira ${horas} horas e ${minutis} minutos</p>`
-                break
-            case 2:
-                welcome.innerHTML = `<p>Terça-Feira ${horas} horas e ${minutis} minutos</p>`
-                break
-            case 3:
-                welcome.innerHTML = `<p>Quarta-Feira ${horas} horas e ${minutis} minutos</p>`
-                break
-            case 4:
-                welcome.innerHTML = `<p>Quinta-Feira ${horas} horas e ${minutis} minuto</p>s`
-                break
-            case 5:
-                welcome.innerHTML = `<p>Sexta-Feira ${horas} horas e ${minutis} minutos</p>`
-                break
-            case 6:
-                welcome.innerHTML = `<p>Sabado ${horas} horas e ${minutis} minutos</p>`
-                break
-            
-            }
             function login() {
-                var res = window.document.querySelector('div#res')
-                var pass = window.document.querySelector('input#pass')
-                var user = window.document.querySelector('input#Username')
-                var usuario = String(user.value)
-                var senha = Number(pass.value)
-                if ( senha == 8080 && usuario == 'Vws2007' ) {
+                var res = window.document.querySelector('div#res');
+                var pass = window.document.querySelector('input#pass');
+                var user = window.document.querySelector('input#Username');
+                var usuario = user.value;  
+                var senha = pass.value;    
+                if ( senha === '8080' && usuario === 'Vws2007' ) {
                     location.href="./web.site/index.html"
                 } else {
                     res.innerHTML = `<em> Acesso Negado !<em>` 
+                    return;
                 }
             }
         </script>

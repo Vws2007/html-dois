@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,14 +28,20 @@
         <div class="your email">
             <h6>Digite seu E-mail:</h6>
             <input type="email" name="Username" id="email" placeholder="Digite seu email" required>
+            <div id="mail">
+
+            </div>
         </div>
         <div class="Your password">
             <h6>Crie uma senha:</h6>
-            <input type="password" name="" id="passtwo" placeholder="Crie sua senha" required>
+            <input type="password" name="" id="pass" placeholder="Crie sua senha" required>
         </div>
         <div class="Confirm your password">
             <h6>Confirme sua senha:</h6>
             <input type="password" name="" id="passconfirm" placeholder="Confirme sua senha">
+            <div id="sen">
+
+            </div>
         </div>
         <button class="btn" id="register" onclick="register()">
             <p>Registrar-se</p>
@@ -45,11 +51,26 @@
     <script>
         function register() {
             var name = window.document.querySelector('input#Username')
+            var user = String(name.value)
             var email = window.document.querySelector('input#email')
-            var passtwo = window.document.querySelector('input#name')
-            var nome = String(name.value)
             var mail = String(email.value)
-            var senhadois =  Number(passtwo.value)
+            var password = window.document.querySelector('input#pass')
+            var senh = String(password.value)
+            var confirm = window.document.querySelector('input#passconfirm')
+            var conf = String(confirm.value)
+            var validarEmail = document.querySelector('div#mail')
+            var validarSenha = document.querySelector('div#sen')
+            if (mail.includes('@')) {
+              return true;
+            } else {
+                validarEmail.innerHTML = 'Email inválido.'
+            }
+            if (confirm === password) {
+                validarSenha.innerHTML = 'Cadastro feito com sucesso !'
+            } else {
+                validarSenha.innerHTML = 'Senhas não correspondentes !'
+            }
+            
         }
     </script>
 </body>

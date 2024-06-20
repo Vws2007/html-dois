@@ -186,23 +186,57 @@ p {
   height: auto;
 }
 @media (max-width: 1000px) {
-body {
+.responsivo {
+  width: auto;
+  padding: 5px;
   overflow-x: hidden;
+}
+.contato label{
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+.contato input, .contato textarea{
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px 2%;
+  width: 240px;
+}
+.contato textarea{
+  width: 420px;
+  height: 50px;
 }
 .sidebar {
     display: none;
 }
 .header {
   overflow-x: hidden;
-  width: 620px;
-  float: left;
+  width: 440px;
+  padding: 5px;
+}
+.linha .col8 .resp  {
+  height: 30px;
+  width: 420px;
+  overflow: hidden;
+}
+.nav-list {
+  width: 440px;
+}
+ul.inline li, ol.inline li {
+  display: inline-block;
 }
 .header .linha {
   width: 720px;
 }
-.menu {
-  width: 540px;
+.mim {
+  width: 440px;
+  background-color: #ffffff;
+  color: #000000;
 }
+.menu li a {
+  width: 480px;
+}
+
 .menu li {
   margin: 5px;
   float: left;
@@ -210,6 +244,9 @@ body {
 .menu li a {
   margin-left: -13px;
   padding: 2px 2px;
+}
+h2 {
+  text-indent: 5px;
 }
 .header .col8 .menu {
   margin: 0px -5px;

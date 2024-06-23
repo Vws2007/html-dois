@@ -230,8 +230,14 @@ ul.inline li, ol.inline li {
 }
 .mim {
   width: 440px;
-  background-color: #ffffff;
-  color: #000000;
+}
+.col4 {
+  display: none;
+}
+.linha {
+  padding: 8px;
+  width: 440px;
+  overflow: hidden;
 }
 .menu li a {
   width: 480px;
@@ -253,7 +259,7 @@ h2 {
 }
 .logo {
   width: 240px;
-  margin-left: 120px;
+  margin-left: 80px;
   text-align: center;
 }
 .conteudo-extra .col5  {
@@ -272,5 +278,8 @@ h2 {
 .linha .col9 img {
   width: auto;
   height: 200px;
+}
+.col9 p {
+  width: 360px;
 }
 }

@@ -197,7 +197,7 @@ p {
   font-weight: 300;
 }
 .linha .col6 {
-  width: 190px;
+  width: 180px;
   height: auto;
 }
 .linha .col6 p {
@@ -205,7 +205,7 @@ p {
  height: auto;
 }
 .linha .col4 {
-  width: 190px;
+  width: 180px;
   height: auto;
 }
 .linha .col4 p {
@@ -280,6 +280,10 @@ h2 {
 .header .col8 .menu {
   margin: 0px -5px;
 }
+.veja {
+  text-indent: 0px;
+  width: 300px;
+}
 .logo {
   width: 240px;
   margin-left: 80px;
@@ -293,18 +297,26 @@ h2 {
   width: 340px;
   height: auto;
 }
+.linha .info .col8 h2{
+  width: 320px;
+}
+.linha .info .col8 p{
+  width: 420px;
+}
 .footer .linha .col12 span {
-  margin-left: 10%;
+  margin-left: 8.5%;
   float: left;
 }
 .linha .col9 p {
-  width: 360px;
+  width: 340px;
+  height: auto;
 }
 .linha .col9 img {
   width: auto;
   height: 200px;
 }
 .col9 p {
-  width: 360px;
+  width: 340px;
+  height: auto;
 }
 }

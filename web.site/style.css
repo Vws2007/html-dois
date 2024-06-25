@@ -18,7 +18,7 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  background-color: black;
+  background-color: rgb(255, 0, 187);
   font-family: Arial, Helvetica, sans-serif;
   color: #fffafa;
 }   
@@ -188,7 +188,7 @@ p {
 @media (max-width: 1000px) {
 .responsivo {
   width: auto;
-  padding: 5px;
+  padding: 1px;
   overflow-x: hidden;
 }
 .contato label{
@@ -212,7 +212,7 @@ p {
 .header {
   overflow-x: hidden;
   width: 440px;
-  padding: 5px;
+  padding: 2px;
 }
 .linha .col8 .resp  {
   height: 30px;
@@ -235,7 +235,7 @@ ul.inline li, ol.inline li {
   display: none;
 }
 .linha {
-  padding: 8px;
+  padding: 2px;
   width: 440px;
   overflow: hidden;
 }
@@ -263,17 +263,18 @@ h2 {
   text-align: center;
 }
 .conteudo-extra .col5  {
-  width: 440px;
+  width: 400px;
 }
 .conteudo-extra .col7 p {
-  width: 440px;
+  margin: 0px -10px 0px 0px ;
+  width: 400px;
 }
 .footer .linha .col12 span {
   margin-left: 10%;
   float: left;
 }
 .linha .col9 p {
-  width: 440px;
+  width: 400px;
 }
 .linha .col9 img {
   width: auto;

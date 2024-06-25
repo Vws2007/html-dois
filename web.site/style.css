@@ -188,6 +188,7 @@ p {
 @media (max-width: 1000px) {
 .responsivo {
   width: auto;
+  height: auto;
   padding: 5px;
   overflow-x: hidden;
 }
@@ -201,7 +202,7 @@ p {
   height: auto;
 }
 .linha .col6 p {
- width: 200px;
+ width: 180px;
  height: auto;
 }
 .linha .col4 {
@@ -209,7 +210,7 @@ p {
   height: auto;
 }
 .linha .col4 p {
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 .linha {
@@ -227,15 +228,17 @@ p {
 }
 ul.inline li, ol.inline li {
   display: inline;
-  margin-right: 11px;
+  margin-right: 25px;
+  margin-left: -10px;
 }
 .sidebar {
     display: none;
 }
 .header {
   overflow-x: hidden;
-  width: 440px;
+  width: 520px;
   padding: 5px;
+  margin: -10px;
 }
 .linha .col8 .resp  {
   height: 30px;
@@ -301,7 +304,7 @@ h2 {
   width: 320px;
 }
 .linha .info .col8 p{
-  width: 420px;
+  width: 320px;
 }
 .footer .linha .col12 span {
   margin-left: 8.5%;

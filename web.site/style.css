@@ -18,7 +18,7 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  background-color: rgb(255, 0, 187);
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   color: #fffafa;
 }   
@@ -188,13 +188,32 @@ p {
 @media (max-width: 1000px) {
 .responsivo {
   width: auto;
-  padding: 1px;
+  padding: 5px;
   overflow-x: hidden;
 }
 .contato label{
   display: block;
   font-size: 13px;
   font-weight: 300;
+}
+.linha .col6 {
+  width: 190px;
+  height: auto;
+}
+.linha .col6 p {
+ width: 200px;
+ height: auto;
+}
+.linha .col4 {
+  width: 190px;
+  height: auto;
+}
+.linha .col4 p {
+  width: 200px;
+  height: auto;
+}
+.linha {
+  height: auto;
 }
 .contato input, .contato textarea{
   display: block;
@@ -203,8 +222,12 @@ p {
   width: 240px;
 }
 .contato textarea{
-  width: 420px;
+  width: 240px;
   height: 50px;
+}
+ul.inline li, ol.inline li {
+  display: inline;
+  margin-right: 11px;
 }
 .sidebar {
     display: none;
@@ -212,7 +235,7 @@ p {
 .header {
   overflow-x: hidden;
   width: 440px;
-  padding: 2px;
+  padding: 5px;
 }
 .linha .col8 .resp  {
   height: 30px;
@@ -231,11 +254,11 @@ ul.inline li, ol.inline li {
 .mim {
   width: 440px;
 }
-.col4 {
-  display: none;
+ul {
+  padding: 0px 0px 0px 10px;
 }
 .linha {
-  padding: 2px;
+  padding: 8px;
   width: 440px;
   overflow: hidden;
 }
@@ -263,18 +286,19 @@ h2 {
   text-align: center;
 }
 .conteudo-extra .col5  {
-  width: 400px;
+  width: 340px;
+  height: auto;
 }
 .conteudo-extra .col7 p {
-  margin: 0px -10px 0px 0px ;
-  width: 400px;
+  width: 340px;
+  height: auto;
 }
 .footer .linha .col12 span {
   margin-left: 10%;
   float: left;
 }
 .linha .col9 p {
-  width: 400px;
+  width: 360px;
 }
 .linha .col9 img {
   width: auto;

@@ -187,7 +187,7 @@ p {
 }
 @media (max-width: 1000px) {
 .responsivo {
-  width: auto;
+  width: 520px;
   height: auto;
   padding: 5px;
   overflow-x: hidden;
@@ -227,18 +227,28 @@ p {
   height: 50px;
 }
 ul.inline li, ol.inline li {
+  font-size: 15px;
   display: inline;
-  margin-right: 25px;
-  margin-left: -10px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .sidebar {
     display: none;
 }
 .header {
   overflow-x: hidden;
-  width: 520px;
+  width: 450px;
   padding: 5px;
   margin: -10px;
+}
+.header .col4 {
+  font-size: 12px;
+  width: 150px;
+  height: auto;
+}
+.header .col8 {
+  width: 620px;
+  height: auto;
 }
 .linha .col8 .resp  {
   height: 30px;
@@ -307,7 +317,7 @@ h2 {
   width: 320px;
 }
 .footer .linha .col12 span {
-  margin-left: 8.5%;
+  margin-left: 5.5%;
   float: left;
 }
 .linha .col9 p {

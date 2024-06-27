@@ -187,7 +187,7 @@ p {
 }
 @media (max-width: 1000px) {
 .responsivo {
-  width: 520px;
+  width: 720px;
   height: auto;
   padding: 5px;
   overflow-x: hidden;
@@ -229,7 +229,7 @@ p {
 ul.inline li, ol.inline li {
   font-size: 15px;
   display: inline;
-  margin-right: 10px;
+  margin-right: 25px;
   margin-left: 10px;
 }
 .sidebar {
@@ -237,7 +237,7 @@ ul.inline li, ol.inline li {
 }
 .header {
   overflow-x: hidden;
-  width: 450px;
+  width: 720px;
   padding: 5px;
   margin: -10px;
 }
